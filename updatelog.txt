@@ -1,0 +1,29 @@
+{FF0000}* NEW {FFFFFF}- {00FF7F}17.01.2022 - Version 7.1.8a - by Tupi
+
+{FFFFFF}- comenzile /info respectiv /update au fost modificate cu /sihinfo respectiv /sihupdate datorita unor suprapuneri.
+- comanda /sihhud a fost modificata. De acum comanda /sihhud afiseaza un meniu cu toate HUD-urile pe care modul le contine
+cu posibilitatea de activare/dezactivare a acestora prin selectarea lor.
+- a fost adaugat un HUD pentru {00FF78}Faction Duty{FFFFFF}. Acesta se regaseste in meniul /sihhud. Prin activarea acestui nou HUD in momentul
+in care va puneti la datorie o sa va apara un mic HUD (asemanator cu cel de la limba modului) care va indica daca sunteti sau
+nu la datorie. La folosirea comenzii /duty acest HUD se updateaza in functie daca sunteti sau nu la datorie doar daca HUD-ul
+este activat din meniu.
+- toate mesajele de sintaxa/eroare din mod au fost modificate.
+- de acum in momentul cand un jucator va afiseaza licentele, voua o sa va apara in chat cate ore are acesta la fiecare licenta.
+- de acum comanda /celic nu va mai putea fi folosita daca jucatorul nu va afiseaza licentele sale, respectiv nu le solicitati.
+- de acum in momentul folosirii comenzii /celic jucatorul o sa fie automat intrebat ce licente doriti sa ii acordati.
+{FF0000}Note:{FFFFFF}
+* jucatorul o sa fie intrebat despre licentele a caror durata este mai mica sau egala cu 49 de ore.
+* jucatorul o sa fie intrebat despre licenta de Weapon doar daca are level 5+.
+* in cazul in care jucatorul are 50+ ore la o licenta aceasta o sa fie exclusa automat.
+* in cazul in care jucatorul are toate licentele cu 50+ ore o sa fie informat ca nu puteti sa ii acordati nicio licenta momentan.
+- de acum comenzile /lic si /rein nu vor mai putea fi folosite pe jucatorii care sunt si ei instructori.
+- mesajul si HUD-ul informativ pentru timpul per intrebare a clientului a fost modificat/corectat.
+
+{FF0000}Automatic Update System{FFFFFF}
+- a fost adaugat un sistem pentru descarcarea si instalarea automata a modului in momentul in care acesta primeste update.
+- in momentul in care va conectati pe server modul verifica automat daca este disponibila o versiune mai noua decat cea pe care o 
+folositi voi, urmand sa va intrebe daca doriti sa o instalati sau nu. 
+- Daca alegeti sa o instalati atunci tot ce trebuie sa faceti este sa asteptati cateva secunde pentru a se descarca iar dupa finalizare sa 
+inchideti jocul(/q) si sa reintrati pe server pentru a se aplica modificarile.
+- a fost adaugata comanda [/checksihupdate] pe a verifica in timp real daca este disponibila pentru instalare o versiune mai noua 
+decat ceape care o folositi voi in acel moment. Daca aveti ultima versiune o sa va descarce doar updatelog-ul acesteia.
