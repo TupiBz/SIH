@@ -12,12 +12,17 @@ este activat din meniu.
 - de acum comanda /celic nu va mai putea fi folosita daca jucatorul nu va afiseaza licentele sale, respectiv nu le solicitati.
 - de acum in momentul folosirii comenzii /celic jucatorul o sa fie automat intrebat ce licente doriti sa ii acordati.
 {FF0000}Note:{FFFFFF}
-* jucatorul o sa fie intrebat despre licentele a caror durata este mai mica sau egala cu 49 de ore.
-* jucatorul o sa fie intrebat despre licenta de Weapon doar daca are level 5+.
-* in cazul in care jucatorul are 50+ ore la o licenta aceasta o sa fie exclusa automat.
-* in cazul in care jucatorul are toate licentele cu 50+ ore o sa fie informat ca nu puteti sa ii acordati nicio licenta momentan.
+{FF0000}* {FFFFFF}jucatorul o sa fie intrebat despre licentele a caror durata este mai mica sau egala cu 49 de ore.
+{FF0000}* {FFFFFF}jucatorul o sa fie intrebat despre licenta de Weapon doar daca are level 5+.
+{FF0000}* {FFFFFF}in cazul in care jucatorul are 50+ ore la o licenta aceasta o sa fie exclusa automat.
+{FF0000}* {FFFFFF}in cazul in care jucatorul are toate licentele cu 50+ ore o sa fie informat ca nu puteti sa ii acordati nicio licenta momentan.
 - de acum comenzile /lic si /rein nu vor mai putea fi folosite pe jucatorii care sunt si ei instructori.
 - mesajul si HUD-ul informativ pentru timpul per intrebare a clientului a fost modificat/corectat.
+- culorile de la HUD-ul informativ pentru limba intrebarilor clientilor au fost interschimbate.
+- a fost rezolvata problema prin care aparea ca trebuie sa opresti manual lectia cand ofereai licente unui jucator de nivel 50+.
+- comanda /laall a fost eliminata. De acum pentru a anunta cand un client este la voi pentru toate licentele se foloseste comanda {00FF78}/lamine
+{FFFFFF}iar ID-ul licentei fiind {00FF78}6{FFFFFF}.
+ 
 
 {FF0000}Automatic Update System{FFFFFF}
 - a fost adaugat un sistem pentru descarcarea si instalarea automata a modului in momentul in care acesta primeste update.
