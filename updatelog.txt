@@ -20,8 +20,9 @@ este activat din meniu.
 - mesajul si HUD-ul informativ pentru timpul per intrebare a clientului a fost modificat/corectat.
 - culorile de la HUD-ul informativ pentru limba intrebarilor clientilor au fost interschimbate.
 - a fost rezolvata problema prin care aparea ca trebuie sa opresti manual lectia cand ofereai licente unui jucator de nivel 50+.
-- comanda /laall a fost eliminata. De acum pentru a anunta cand un client este la voi pentru toate licentele se foloseste comanda {00FF78}/lamine
-{FFFFFF}iar ID-ul licentei fiind {00FF78}6{FFFFFF}.
+- comanda /laall a fost eliminata. De acum pentru a anunta cand un client este la voi pentru toate licentele se foloseste comanda 
+{00FF78}/lamine {FFFFFF}iar ID-ul licentei fiind {00FF78}6{FFFFFF}.
+{00FF78}Ex: {FFFFFF}/lamine 100 6, /lamine 50 6, etc.
  
 
 {FF0000}Automatic Update System{FFFFFF}
