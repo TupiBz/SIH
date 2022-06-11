@@ -27,9 +27,9 @@ comanda /lamine iar ID-ul licentei fiind 6. (Ex: /lamine 100 6, /lamine 50 6, et
 {FF0000}Automatic Update System{FFFFFF}
 - a fost adaugat un sistem pentru descarcarea si instalarea automata a modului in momentul in care acesta primeste update.
 - in momentul in care va conectati pe server modul verifica automat daca este disponibila o versiune mai noua decat cea pe care o 
-folositi voi, urmand sa va intrebe daca doriti sa o instalati sau nu. 
-- Daca alegeti sa o instalati atunci tot ce trebuie sa faceti este sa asteptati cateva secunde pentru a se descarca iar dupa finalizare sa 
+folositi voi, urmand sa va intrebe daca doriti sa o descarcati automat sau nu. 
+- Daca alegeti sa o descarcati tot ce trebuie sa faceti este sa asteptati cateva secunde pentru a se descarca iar dupa finalizare sa 
 inchideti jocul(/q) si sa reintrati pe server pentru a se aplica modificarile.
-- a fost adaugata comanda [/checksihupdate] pe a verifica in timp real daca este disponibila pentru instalare o versiune mai noua 
-decat cea pe care o folositi voi in acel moment. Daca aveti ultima versiune o sa va descarce doar updatelog-ul acesteia in cazul in
-care nu-l aveti deja, ulterior folosind comanda [/sihupdate] pentru a-l putea citi.
+- a fost adaugata comanda [/checksihupdate] pe a verifica in timp real daca este disponibila pentru descarcare o versiune mai noua 
+decat cea pe care o folositi voi in acel moment. Daca este disponibila o versiune mai noua decat cea folosita de voi, la fel ca la
+logarea pe server o sa va apara un dialog informativ pentru a va intreba daca vreti sa o descarcati sau nu.
